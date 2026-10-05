@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, BrainCircuit, Route } from 'lucide-react'
-import { Badge } from '@/components/ui/badge'
+
 import { Separator } from '@/components/ui/separator'
 import { TrafficMap } from '@/components/traffic-map'
 import {
@@ -10,7 +10,7 @@ import {
   getRouteTitle,
   navigationItems,
   problemStatementId,
-  prototypeDisclaimer,
+
   type AppRole,
 } from '@/types/traffic'
 
@@ -29,7 +29,7 @@ export function AppShell({ role, children }: { role: AppRole; children?: React.R
               <span className="block text-sm font-semibold tracking-tight">{appName}</span>
             </span>
           </Link>
-          <Badge variant="outline" className="hidden sm:inline-flex text-[10px] px-2 py-0">{prototypeDisclaimer}</Badge>
+
         </div>
       </header>
 

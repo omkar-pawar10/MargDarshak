@@ -29,7 +29,7 @@ export interface NavigationItem {
 export const appName = 'MargDarshak'
 export const projectName = 'Intelligent Traffic Route Optimization'
 export const problemStatementId = ''
-export const prototypeDisclaimer = 'Demonstration prototype'
+
 
 export const appRoutes = {
   driver: '/driver',
