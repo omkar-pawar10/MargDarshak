@@ -55,8 +55,7 @@ export function AppShell({ role, children }: { role: AppRole; children?: React.R
                 })}
               </nav>
             </div>
-            <Separator />
-            <p className="text-xs leading-5 text-muted-foreground">Frontend foundation only. Live traffic, GPS, APIs, persistence, and a real optimization engine are intentionally excluded.</p>
+
           </aside>
 
           {children ? (
@@ -91,7 +90,7 @@ export function AppShell({ role, children }: { role: AppRole; children?: React.R
         </div>
 
         <footer className="mt-12 border-t border-border/70 pt-4 text-xs text-muted-foreground">
-          {appName} · Frontend foundation
+          {appName}
         </footer>
       </main>
     </div>

@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'MargDarshak',
-  description: 'Frontend foundation for Quantum-Inspired Intelligent Traffic Route Optimization.',
+  description: 'Quantum-Inspired Intelligent Traffic Route Optimization.',
   generator: 'v0.app',
   icons: {
     icon: '/logo.png',
